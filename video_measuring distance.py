@@ -2,9 +2,10 @@ import cv2
 import numpy as np
 import requests
 
-
 font = cv2.FONT_HERSHEY_COMPLEX  
 # url = "http://192.168.0.4:8080//shot.jpg"
+
+
 cap = cv2.VideoCapture(0)
 
 while True:
