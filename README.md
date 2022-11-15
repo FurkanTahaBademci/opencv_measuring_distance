@@ -1,22 +1,23 @@
 
 # Görüntü İşleme Teknikleri Kullanarak Mesafe Ölçümü 
 
-Bu projenin ne yaptığı ve kimin için olduğu hakkında kısa bir açıklama
-
-
-# Görüntü İşleme Teknikleri Kullanarak Mesafe Ölçümü 
-
-Bu projenin ne yaptığı ve kimin için olduğu hakkında kısa bir açıklama
-
-
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+Görüntü üzerindeki herhangi bir nesneyi referans alarak görüntü üzerindeki tüm kontürleri milimetre hassisiyetinde ölçebilirsiniz. Bu çalışmada 3x3 cm ebatlarında siyah kare bir nesne referans alınmıştır. 
 
     
-## Çıkarılan Dersler
+## Eklenmesi Planlanan özellikler
+Siyah nesne yerine daha benzersiz olan QR kod referans alınarak doğruluk daha da arttırılacaktır.
 
-Bu projeyi inşa ederken neler öğrendiniz? Ne tür zorluklarla karşılaştınız ve bunları nasıl aştınız?
+## Kodu Çalıştırmak için
+```
+python image_measuring_distance.py -i <input_image_path> -o <output_image_path>
+```
+### Video üzerinden kullanım da IP kamera kullanmak isterseniz video_measuring distance.py içerisinde kullanabileceğiniz yorum satırları bulunmaktadır 
 
-  
+```
+
+python video_measuring distance.py
+
+```
 ## Ekran Görüntüleri
 
 ![Uygulama Ekran Görüntüsü](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
