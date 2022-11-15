@@ -1,12 +1,17 @@
 import cv2
 import numpy as np
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('-i','--input', help='İnput İmage Path', required=True)
+parser.add_argument('-o','--output', help='Output İmage Path', required=False)
+args = vars(parser.parse_args())
 
 
 
- 
-font = cv2.FONT_HERSHEY_COMPLEX  # FONT TANIMLADIK 
+font = cv2.FONT_HERSHEY_COMPLEX  
 
-img = cv2.imread("resim3.jpg")   # OKUMA
+img = cv2.imread(args['input'])   
 image_norm = cv2.normalize(img, None, alpha=0,beta=200, norm_type=cv2.NORM_MINMAX)
 gray = cv2.cvtColor(image_norm,cv2.COLOR_BGR2GRAY)
 blur = cv2.GaussianBlur(gray,(5,5),0)
@@ -77,6 +82,7 @@ if gecis_kontrol==1:
 cv2.imshow("img",img)
 print("Referans Uzunluk: ",referans_uzunluk)    
 cv2.waitKey(0)
+cv2.imwrite(args['output'])
 cv2.destroyAllWindows()
 
     
