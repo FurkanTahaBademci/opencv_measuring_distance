@@ -40,7 +40,7 @@ python image_measuring_distance.py -i <input_image_path> -o <output_image_path>
 ```
 python video_measuring distance.py
 ```
-# Örnekler
+# Examples
 <br>
 
 ![ ](https://raw.githubusercontent.com/furkantahabademci/opencv_measuring_distance/main/images/input_images/input_1.jpg)
@@ -57,4 +57,4 @@ python video_measuring distance.py
 
 ![ ](https://raw.githubusercontent.com/furkantahabademci/opencv_measuring_distance/main/images/input_images/input_3.jpg)
 
-![ ](https://raw.githubusercontent.com/furkantahabademci/opencv_measuring_distance/main/images/output_images/output_3.jpg)
+[def]: https://raw.githubusercontent.com/furkantahabademci/opencv_measuring_distance/main/images/output_images/output_3.jpg
