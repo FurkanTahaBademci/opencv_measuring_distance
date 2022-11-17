@@ -57,4 +57,4 @@ python video_measuring distance.py
 
 ![ ](https://raw.githubusercontent.com/furkantahabademci/opencv_measuring_distance/main/images/input_images/input_3.jpg)
 
-[def]: https://raw.githubusercontent.com/furkantahabademci/opencv_measuring_distance/main/images/output_images/output_3.jpg
+![]: https://raw.githubusercontent.com/furkantahabademci/opencv_measuring_distance/main/images/output_images/output_3.jpg
